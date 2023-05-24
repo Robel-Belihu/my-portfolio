@@ -4,7 +4,7 @@ import React from "react";
 import propertyImg from "../public/assets/projects/property.png";
 import BloggerImg from "../public/assets/projects/blogger.png";
 import dashboardImg from "../public/assets/projects/dashboardImg.png";
-import restaurantSiteImg from "../public/assets/projects/image__restaurantWebsite-xl.png";
+import restaurantSiteImg from "../public/assets/projects/.png";
 import netflixImg from "../public/assets/projects/netflix.png";
 import amazonImg from "../public/assets/projects/amazonImg.png";
 import recipesImg from "../public/assets/projects/recipesImg.png";
@@ -29,7 +29,7 @@ const Projects = () => {
           />
           <ProjectItem
             title="User Dashboard"
-            backgroundImg={restaurantSiteImg}
+            backgroundImg={dashboardImg}
             projectUrl="/restaurantSite"
             tech="NEXTJS"
           />
@@ -52,12 +52,6 @@ const Projects = () => {
             tech="React JS"
           />
           <ProjectItem
-            title="Global-recipes"
-            backgroundImg={recipesImg}
-            projectUrl="/recipes"
-            tech="React JS"
-          />
-          <ProjectItem
             title="Mini-Amazon"
             backgroundImg={amazonImg}
             projectUrl="/amazon"
@@ -67,6 +61,12 @@ const Projects = () => {
             title="Facebook"
             backgroundImg={fbImg}
             projectUrl="/facebook"
+            tech="React JS"
+          />
+          <ProjectItem
+            title="Global-recipes"
+            backgroundImg={recipesImg}
+            projectUrl="/recipes"
             tech="React JS"
           />
           <ProjectItem
