@@ -26,7 +26,7 @@ const blogger = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            A blog website build with react and firebase. Functionalities
+            A blog website built with react and firebase. Functionalities
             include personal blogging account with login/logout, ability to
             create a new blog and delete your blogs. This is a baby project I
             have just started. I will keep on working on it to make it a bigger
