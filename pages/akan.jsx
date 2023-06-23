@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import bloggerImg2 from "../public/assets/projects/blogger2.png";
+import akanImg from "../public/assets/projects/ss-akan-home.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const blogger = () => {
+const akan = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -12,12 +12,13 @@ const blogger = () => {
         <Image
           className="absolute z-1"
           layout="fill"
-          src={bloggerImg2}
+          objectFit="cover"
+          src={akanImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Rb-Blogger / Baby-project</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className="py-2">Akan Digital</h2>
+          <h3>ReactJS</h3>
         </div>
       </div>
 
@@ -26,25 +27,22 @@ const blogger = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            A blog website build with react and firebase. Functionalities
-            include personal blogging account with login/logout, ability to
-            create a new blog and delete your blogs. This is a baby project I
-            have just started. I will keep on working on it to make it a bigger
-            platform
+            Freelance project. Multiple page website built with React,
+            React-router and styled with Tailwindcss.
           </p>
           <a
-            href="https://github.com/Robel-Belihu/rb-blog.git"
+            href="https://akan-digital-website.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
-            <button className="px-8 py-2 mt-4 mr-8">Code</button>
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
           <a
-            href="https://rb-blog-sigma.vercel.app/"
+            href="https://github.com/Robel-Belihu/AKAN-digital-website.git"
             target="_blank"
             rel="noreferrer"
           >
-            <button className="px-8 py-2 mt-4">Demo</button>
+            <button className="px-8 py-2 mt-4">Code</button>
           </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
@@ -52,13 +50,10 @@ const blogger = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> React
+                <RiRadioButtonFill className="pr-1" /> ReactJS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Javascript
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Firebase / Firestore
+                <RiRadioButtonFill className="pr-1" /> Tailwindcss
               </p>
             </div>
           </div>
@@ -71,4 +66,4 @@ const blogger = () => {
   );
 };
 
-export default blogger;
+export default akan;
