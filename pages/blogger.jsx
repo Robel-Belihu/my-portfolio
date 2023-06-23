@@ -64,8 +64,15 @@ const blogger = () => {
           </div>
         </div>
         <Link href="/#projects">
-          <p className="underline cursor-pointer">Back</p>
+          <p className="font-semibold text-blue-600">Back</p>
         </Link>
+        <a
+          className="font-semibold text-blue-600"
+          target="_blank"
+          href="https://www.linkedin.com/in/robel-belihu/"
+        >
+          Linked In
+        </a>
       </div>
     </div>
   );

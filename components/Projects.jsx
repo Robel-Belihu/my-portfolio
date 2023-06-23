@@ -10,6 +10,7 @@ import netflixImg from "../public/assets/projects/netflix.png";
 import amazonImg from "../public/assets/projects/amazonImg.png";
 import recipesImg from "../public/assets/projects/recipesImg.png";
 import restaurantImg from "../public/assets/projects/restaurantImg.png";
+import ecomImg from "../public/assets/projects/ss-ecom-home2.png";
 import fbImg from "../public/assets/projects/fbImg.png";
 import ProjectItem from "./ProjectItem";
 
@@ -29,28 +30,34 @@ const Projects = () => {
             tech="ReactJS"
           />
           <ProjectItem
-            title="Akan Digital Website"
+            title="Akan Digital - Website"
             backgroundImg={akanImg}
             projectUrl="/akan"
-            tech="ReactJS - Freelance project"
+            tech="ReactJS"
           />
           <ProjectItem
-            title="User Dashboard"
+            title="Dashboard"
             backgroundImg={dashboardImg}
             projectUrl="/dashboard"
-            tech="NextJS - Static frontend with placeholder data"
+            tech="NextJS - Static frontend"
           />
           <ProjectItem
-            title="Estatecoge | Real estate app"
+            title="E-commerce Webapp"
+            backgroundImg={ecomImg}
+            projectUrl="/ecom"
+            tech="MERN"
+          />
+          <ProjectItem
+            title="Real estate app"
             backgroundImg={propertyImg}
             projectUrl="/property"
-            tech="NextJS - only displaying functionality with filtering"
+            tech="NextJS"
           />
           <ProjectItem
             title="Rb-blogger"
             backgroundImg={BloggerImg}
             projectUrl="/blogger"
-            tech="React JS - Baby-project "
+            tech="React JS (Baby-project) "
           />
           <ProjectItem
             title="Netflix App"
@@ -59,10 +66,10 @@ const Projects = () => {
             tech="ReactJS - A practice side project"
           />
           <ProjectItem
-            title="Global-recipes"
+            title="Recipes"
             backgroundImg={recipesImg}
             projectUrl="/recipes"
-            tech="ReactJS - A practice side project (not completed)"
+            tech="ReactJS "
           />
           <ProjectItem
             title="Mini-Amazon"
@@ -80,7 +87,7 @@ const Projects = () => {
             title="Restaurant Landing Page"
             backgroundImg={restaurantImg}
             projectUrl="/restaurant"
-            tech="ReactJS - a vanilla html/css/bootstrap simple restaurant landing page. Not impressive. Just for practice purpose"
+            tech="Html/bootstrap"
           />
         </div>
       </div>
