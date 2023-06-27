@@ -65,12 +65,12 @@ const Projects = () => {
             projectUrl="/netflix"
             tech="ReactJS - A practice side project"
           />
-          <ProjectItem
+          {/* <ProjectItem
             title="Recipes"
             backgroundImg={recipesImg}
             projectUrl="/recipes"
             tech="ReactJS "
-          />
+          /> */}
           <ProjectItem
             title="Mini-Amazon"
             backgroundImg={amazonImg}
